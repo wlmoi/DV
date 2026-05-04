@@ -1,0 +1,17 @@
+{
+  "day": 2,
+  "title": "Signal map",
+  "group": "A",
+  "topic": "UART",
+  "signals": [
+    {"name": "clk", "dir": "in", "desc": "system clock"},
+    {"name": "rst_n", "dir": "in", "desc": "active-low reset"},
+    {"name": "rx", "dir": "in", "desc": "serial input"},
+    {"name": "tx", "dir": "out", "desc": "serial output"},
+    {"name": "tx_start", "dir": "in", "desc": "start transmit"},
+    {"name": "tx_data", "dir": "in", "desc": "data byte to send"},
+    {"name": "tx_busy", "dir": "out", "desc": "transmit in progress"},
+    {"name": "rx_data", "dir": "out", "desc": "received byte"},
+    {"name": "rx_valid", "dir": "out", "desc": "receive byte valid"}
+  ]
+}

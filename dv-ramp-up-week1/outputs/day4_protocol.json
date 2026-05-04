@@ -1,0 +1,17 @@
+{
+  "day": 4,
+  "title": "Protocol details",
+  "group": "A",
+  "topic": "UART",
+  "frame": {
+    "start_bit": 0,
+    "data_bits": 8,
+    "parity": "none",
+    "stop_bits": 1,
+    "bit_order": "lsb_first"
+  },
+  "timing": {
+    "clks_per_bit": "CLKS_PER_BIT parameter",
+    "sampling": "mid-bit"
+  }
+}

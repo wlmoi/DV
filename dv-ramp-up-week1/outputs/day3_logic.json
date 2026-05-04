@@ -1,0 +1,9 @@
+{
+  "day": 3,
+  "title": "Logic breakdown",
+  "group": "A",
+  "topic": "UART",
+  "tx_states": ["TX_IDLE", "TX_START", "TX_DATA", "TX_STOP"],
+  "rx_states": ["RX_IDLE", "RX_START", "RX_DATA", "RX_STOP"],
+  "notes": "TX drives start bit, shifts data LSB-first, then stop bit. RX waits for start, samples mid-bit, shifts data, then checks stop."
+}

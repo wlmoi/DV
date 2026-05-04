@@ -1,0 +1,16 @@
+{
+  "day": 5,
+  "title": "Test plan",
+  "group": "A",
+  "topic": "UART",
+  "testcases": [
+    "UART-001",
+    "UART-002",
+    "UART-003"
+  ],
+  "coverage_goals": [
+    "start and stop bits",
+    "data shift order",
+    "back-to-back frames"
+  ]
+}

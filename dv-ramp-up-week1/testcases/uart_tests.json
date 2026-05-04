@@ -1,0 +1,28 @@
+{
+  "protocol": "UART",
+  "frame": "8N1",
+  "assumptions": {
+    "baud_rate": "configurable",
+    "clks_per_bit": "parameterized"
+  },
+  "tests": [
+    {
+      "id": "UART-001",
+      "name": "TX basic loopback",
+      "stimulus": ["0x55", "0xA5"],
+      "expect": "rx_data matches tx_data"
+    },
+    {
+      "id": "UART-002",
+      "name": "Start bit detect",
+      "stimulus": ["start_bit"],
+      "expect": "rx_valid after stop bit"
+    },
+    {
+      "id": "UART-003",
+      "name": "Back-to-back bytes",
+      "stimulus": ["0x00", "0xFF", "0x3C"],
+      "expect": "no framing errors"
+    }
+  ]
+}

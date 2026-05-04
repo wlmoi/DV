@@ -1,0 +1,7 @@
+Exploration Log - Week 1
+Date: 2026-05-04 (12.00 AM - 2.00 AM)
+
+- Reviewed and Made UART 8N1 frame format and basic TX/RX state machine behavior.
+- Verified loopback concept for initial bring-up.
+- Communicated about differences, language barriers, and conditions with team members.
+- Created Basic Repo structure and initial commit with README.md.

@@ -1,0 +1,11 @@
+{
+  "day": 1,
+  "title": "Design understanding",
+  "group": "A",
+  "topic": "UART",
+  "summary": "Defined an 8N1 UART split into baud timing, TX state machine, and RX state machine.",
+  "artifacts": [
+    "notes/learning_notes.md",
+    "rtl/uart.sv"
+  ]
+}
