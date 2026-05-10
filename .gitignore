@@ -1,1 +1,5 @@
 .venv
+
+# Generated simulation artifacts
+dv-ramp-up-week1/waves/*.vcd
+dv-ramp-up-week1/waves/*.out
